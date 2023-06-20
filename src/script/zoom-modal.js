@@ -1,3 +1,4 @@
+'use strict'
 
 //Modal Container
 const modal = document.getElementById('zoom-modal')
@@ -14,15 +15,19 @@ const zoomOut = document.getElementById('zoom-modal-zoom-out-button')
 //Current zoom Level
 let zoomLevel = 1
 
+//Min zoom level
 const minZoom = 1
 
+//Max zoom level
 const maxZoom = 10
 
 //Get all images to zoom
 const images = document.querySelectorAll('.image-click-zoom-modal')
 
+//Open modal or not
 var isOpen = false;
 
+//Each any image to add click function
 images.forEach(img => {
 
   img.onclick = () => {

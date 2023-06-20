@@ -31,7 +31,8 @@
         width: 25px;
         height: 25px; }
   .zoom-modal .zoom-modal-img {
-    max-width: 100%; }
+    max-width: 100%;
+    cursor: pointer; }
 
 .zoom-modal-img {
   display: block;

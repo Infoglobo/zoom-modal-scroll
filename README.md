@@ -4,7 +4,9 @@ This library is free and can be used in different projects where the focus is on
 
 Feel free to make changes, we love getting PR for improvement.
 
-This project uses the technologies: **SASS**, **CSS**, **Javascript** and **HTML**
+This project uses the technologies: **SASS**, **CSS**, **Javascript** and **HTML**.
+
+![Demo usage](src/img/demo.png)
 
 ## Compiling the SASS
 
