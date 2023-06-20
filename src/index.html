@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Image Scroll</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/zoom-modal.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Zoom modal Scroll</h1>
+    </div>
+
+    <hr style="border:1px solid #eee; margin:20px 0"/>
+
+    <div class="container">
+        <div>
+            <img src="img/monet_01.jpeg" class="imagem-click-zoom-modal" data-zoom="1" />
+        </div>
+        <div>
+            <img src="img/monet_02.jpeg" class="imagem-click-zoom-modal" data-zoom="1" />
+        </div>
+        <div>
+            <img src="img/monet_03.jpeg" class="imagem-click-zoom-modal" data-zoom="1" />
+        </div>
+    </div>
+
+    <div class="container text-container">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <!-- MODAL -->
+    <div id="zoom-modal" class="zoom-modal">
+        <div class="zoom-modal-close">
+            <img alt="Close modal" class="zoom-modal-close-img" width="30" height="30" src="icons/close.svg" />
+        </div>
+
+        <!--IMG Viewer-->
+        <img id="zoom-modal-img" class="zoom-modal-img" width="536" height="937" src="" />
+
+        <div class="zoom-modal-controls">
+            <button id="zoom-modal-zoom-in-button">
+                <img id="zoom-modal-img-zoom-in"
+                    src="icons/zoom-in.svg" />
+            </button>
+
+            <button id="zoom-modal-zoom-out-button">
+                <img id="zoom-modal-img-zoom-out"
+                    src="icons/zoom-out.svg" />
+            </button>
+
+        </div>
+    </div>
+    <!-- MODAL -->
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
