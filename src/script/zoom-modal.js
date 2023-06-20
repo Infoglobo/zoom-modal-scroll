@@ -19,7 +19,7 @@ const minZoom = 1
 const maxZoom = 10
 
 //Get all images to zoom
-const images = document.querySelectorAll('.imagem-click-zoom-modal')
+const images = document.querySelectorAll('.image-click-zoom-modal')
 
 var isOpen = false;
 
