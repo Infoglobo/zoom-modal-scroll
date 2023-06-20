@@ -1,0 +1,47 @@
+/*
+Style only page, not zoom script
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container div {
+    margin: 0 15px;
+}
+
+.container img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid #fff;
+    transition: all .4s;
+}
+
+.container img:hover {
+    border: 2px solid #464f79;
+}
+
+.text-container {
+    padding: 20px;
+}
